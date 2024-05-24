@@ -1,6 +1,7 @@
 body {
     background-color: rgb(255, 199, 208);
     overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
 }
 
 .background-image{
