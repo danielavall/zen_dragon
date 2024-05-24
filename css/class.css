@@ -16,7 +16,6 @@
 .background-image {
     width: 100%;
     position: absolute;
-    background: lightgreen;
 }
 
 .background-image .background-child{

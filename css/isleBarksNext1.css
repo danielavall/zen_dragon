@@ -311,6 +311,20 @@ body {
         justify-content: center;
         margin-left: -3%;
     }
-
+    
+    .custom-image-button {
+        opacity: 0;
+        position: fixed;
+        right: 40px;
+        cursor: pointer;
+        transition: transform 0.3s, opacity 1.5s ease;
+        width: 80px; 
+        height: 100px; 
+        background-image: url('kanan.png'); 
+        background-size: cover;
+        z-index: 1001; 
+        top: 55%;
+    }
+    
     /* End footer */
 }
