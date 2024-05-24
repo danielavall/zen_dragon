@@ -18,8 +18,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 0px;
-    margin-top: -8px;
     transition: 0.3s linear;
 }
 
@@ -297,7 +295,7 @@
 
 .char-body .char-list .char-list-a{
     max-width: 30%;
-    min-width: 300px;
+    min-width: 200px;
     width: 100%;
     margin: 20px auto;
     aspect-ratio: 1/1;
