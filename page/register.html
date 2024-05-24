@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="../css/register.css">
+    <script defer src="../js/script.js"></script>
+</head>
+<body>
+    <!-- Register Form -->
+    <div class="regis-wrapper">
+        <div class="regis-content"></div>
+        <div class="regis-content">
+            <div id="content">
+                <form class="login-form" onsubmit="return validateForm()" action="videoOpening.html">
+                    <input type="text" id="firstName" placeholder="First Name"><br>
+                    <input type="text" id="lastName" placeholder="Last Name"><br>
+                    <select id="gender" style="width: 97%;">
+                        <option value="" disabled selected>Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br>
+                    <input type="text" id="address" placeholder="Address"><br>
+                    <input type="email" id="email" placeholder="Email Address"><br>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+        <div class="regis-content"></div>
+    </div>
+</body>
+</html>

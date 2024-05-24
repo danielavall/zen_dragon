@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isle Berk's</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="../css/isleBarksNext1.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="../aset/logo.png" alt="" class="nav-icon" />
+        <div class="nav-link">
+          <a href="../index.html" class="nav-link-a">
+            <img src="../aset/homePageLogo.png" alt="" />
+            <p>Home</p>
+          </a>
+          <a href="./character.html" class="nav-link-a">
+            <img src="../aset/dragonLogo.png" alt="" />
+            <p>Dragon</p>
+          </a>
+          <a href="./class.html" class="nav-link-a">
+            <img src="../aset/dragonEggLogo.png" alt="" />
+            <p>Class</p>
+          </a>
+          <a href="./isleOfBerks.html" class="nav-link-a">
+            <img src="../aset/islandLogo.png" alt="" />
+            <p>Island</p>
+          </a>
+          <a href="./Register.html" class="nav-link-a">
+            <img src="../aset/aboutUsLogo.png" alt="" />
+            <p>Register</p>
+          </a>
+        </div>
+  
+        <img
+          onclick="dropdown()"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/32px-Hamburger_icon_white.svg.png"
+          class="nav-dropdown"
+        />
+  
+        <div class="dropdown-menu" id="dropdown-menu">
+          <a href="../index.html" class="nav-link-a">
+            <img src="../aset/homePageLogo.png" alt="" />
+            <p>Home</p>
+          </a>
+          <a href="./character.html" class="nav-link-a">
+            <img src="../aset/dragonLogo.png" alt="" />
+            <p>Dragon</p>
+          </a>
+          <a href="./class.html" class="nav-link-a">
+            <img src="../aset/dragonEggLogo.png" alt="" />
+            <p>Class</p>
+          </a>
+          <a href="./isleOfBerks.html" class="nav-link-a">
+            <img src="../aset/islandLogo.png" alt="" />
+            <p>Island</p>
+          </a>
+          <a href="./register.html" class="nav-link-a">
+            <img src="../aset/aboutUsLogo.png" alt="" />
+            <p>Register</p>
+          </a>
+        </div>
+      </nav>
+
+    <div class="content">
+        <div class="photo-container" data-reveal="1">
+            <img id="mainPhoto1" src="../aset/GEN DRAGON (54).png" alt="Main Photo 1" class="shake">
+            <div class="photo-revealed">
+                <p>In the Viking world, egg dragons are mythical beings, embodying ancient gods' essence within their precious shells. These creatures, believed to possess unparalleled strength and wisdom, are revered as guardians of Viking heritage. Each egg holds the promise of a formidable ally, destined to shape the future of their kin.</p>
+            </div>
+        </div>
+      </div>
+
+        <div class="photo-container" data-reveal="2">
+            <img id="mainPhoto2" src="../aset/GEN DRAGON (55).png" alt="Main Photo 2" class="shake">
+            <div class="photo-revealed">
+                <p>As newborns, baby dragons captivate with their innocence and curiosity, nurtured under the watchful eyes of their elders. Guided by ancient wisdom, they grow alongside their Viking companions, forging unbreakable bonds that will define their destinies.</p>
+            </div>
+        </div>
+    
+            <div class="photo-container" data-reveal="3">
+                <img id="mainPhoto3" src="../aset/GEN DRAGON (53).png" alt="Main Photo 3" class="shake">
+                <div class="photo-revealed">
+                    <p>In Zen Academy's serene halls, a diverse cast seeks enlightenment. From novices to masters, each journey unfolds amidst the tranquility of the surroundings. Here, amidst the pursuit of inner harmony, characters are molded, destinies are forged, and greatness awaits those who dare to seek it.</p>
+                    <p> Join us on a journey that began with a dream and now soars across the Isle of Berk and Dragon Island, as we weave tales of camaraderie, discovery, and the majestic art of dragon mastery. Embrace the spirit of Zen dragoN, where every wingbeat resonates with the heartbeat of a legendary alliance.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+      
+            <div class="title">
+              <img src="../aset/logoHeader.png" alt="">
+            </div>
+      
+            <div class="copyrights">
+                <p>
+                  &copy; 2024 All rights reserved.
+                  <span
+                    ><a href="https://www.instagram.com/danielavall_g"
+                      >@danielavall_g</a
+                    >
+                    <a href="https://www.instagram.com/ivancs">@ivancs</a></span
+                  >
+                </p>
+              </div>
+      
+            <div class="social">
+              <a href="#" class="social-icon"
+                ><img src="../aset/facebooklogo.png" alt="Facebook"
+              /></a>
+              <a href="#" class="social-icon"
+                ><img src="../aset/instagram_PNG11.png" alt="Instagram"
+              /></a>
+              <a href="#" class="social-icon"
+                ><img src="../aset/twitter-icone.png" alt="Twitter"
+              /></a>
+            </div>
+          </div>
+    
+        <img class="custom-image-button fade-in" src="../aset/kanan.png" alt="Next Page" onclick="window.location.href='../index.html'">
+    
+        <script>
+            document.querySelectorAll('.photo-container img').forEach(photo => {
+                photo.addEventListener('click', function() {
+                    this.classList.remove('shake');
+                    this.style.filter = 'blur(0)';
+                    this.nextElementSibling.style.display = 'flex';
+                });
+            });
+        </script>
+    </body>
+    </html>
+    
