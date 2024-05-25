@@ -306,6 +306,14 @@
     position: absolute;
 }
 
+.char-option1{
+    display: flex;
+}
+
+.char-option2{
+    display: flex;
+}
+
 .char-img {
     position: absolute;
     display: flex;
@@ -1291,6 +1299,14 @@
     }
     
     /* Styles for each egg */
+    .char-option1{
+        display: flex;
+    }
+    
+    .char-option2{
+        display: flex;
+    }
+
     .char {
         height: 12%;
         background-size: cover; /* Fits image within the egg */
@@ -1832,6 +1848,14 @@
 }
     
     /* Styles for each egg */
+    .char-option1{
+        display: block;
+    }
+    
+    .char-option2{
+        display: block;
+    }
+
     .char {
         height: 0%;
         background-size: cover; /* Fits image within the egg */
